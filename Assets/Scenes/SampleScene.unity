@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 1860605856}
   - component: {fileID: 1860605855}
   - component: {fileID: 1860605858}
+  - component: {fileID: 1860605859}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -449,6 +450,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1860605859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860605854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8ac0e1bb56a5e45a6af0d62f168a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1919011892
 Prefab:
   m_ObjectHideFlags: 0
@@ -462,7 +474,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4961746674239890, guid: d46e404da3ceb694a9009fb6160edd2c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.037
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4961746674239890, guid: d46e404da3ceb694a9009fb6160edd2c, type: 2}
       propertyPath: m_LocalPosition.z
