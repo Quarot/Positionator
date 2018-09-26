@@ -195,7 +195,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4520008151839688, guid: c5da5e2a71fecd246a7d8c5e69fa8bad, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: 3.75
       objectReference: {fileID: 0}
     - target: {fileID: 4520008151839688, guid: c5da5e2a71fecd246a7d8c5e69fa8bad, type: 2}
       propertyPath: m_LocalPosition.y
@@ -461,6 +461,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8ac0e1bb56a5e45a6af0d62f168a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lives: 3
+  name: Mario
+  jumpHeight: 5
+  speed: 5
 --- !u!1001 &1919011892
 Prefab:
   m_ObjectHideFlags: 0
@@ -470,7 +474,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4961746674239890, guid: d46e404da3ceb694a9009fb6160edd2c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4961746674239890, guid: d46e404da3ceb694a9009fb6160edd2c, type: 2}
       propertyPath: m_LocalPosition.y
